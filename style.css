@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Rubik:wght@300;400;500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+body{
+    width: 1440px;
+    overflow: hidden;
+    font-family:'Kumbh Sans', sans-serif;
+    font-size:16px;
+    font-weight: 400;
+}
+@media screen and(max-width:375px) {
+    body{
+        width:375px;
+        overflow: hidden;  
+    }  
+}
+/* ================Colors=================== */
+
+:root{
+    --headings-color:hsl(220, 13%, 13%);
+    --hover-color:hsl(223, 64%, 98%);
+    --body-text-color:hsl(220, 14%, 75%);
+    --menu-active-state:hsl(219, 9%, 45%);
+    --lightbox-background:rgba(0,0,0,0.75);
+
+    /* Primary============================ */
+    --white:hsl(0, 0%, 100%);
+    --orange:hsl(26, 100%, 55%);
+    --pale-orange:hsl(25, 100%, 94%);    
+}
