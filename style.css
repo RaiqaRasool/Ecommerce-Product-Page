@@ -12,7 +12,7 @@ li{
     list-style-type: none;
 }
 body{
-    margin:0 10%;
+    margin:0 8%;
     font-family:'Kumbh Sans', sans-serif;
     font-size:16px;
     font-weight: 400;
@@ -55,6 +55,7 @@ body{
 .logo{
     color: var(--headings-color);
     font-weight: var(--heading-weight);
+    text-align:left;
 }
 .main-menu{
 margin-right:auto;
@@ -72,25 +73,36 @@ margin-right:auto;
     font-weight: var(--heading-weight);
 }
 .avatar{
-    transform:scale(0.3);
+    width:32px;    
 }
 .cart{
     font-size:21px;
     justify-self: right;    
     font-weight:var(--heading-weight);
     color:var(--menu-active-state);
+    margin-right:40px;
 }
 @media screen and (max-width:768px) {
     .header{
-        grid-template-columns:0.1fr 1.5fr 0fr 0.1fr 0.1fr;
-        gap: 5%;
+        grid-template-columns:0.5fr 2fr 0.4fr 0.2fr;
         justify-content: space-around;
         align-items: center;
+        border-bottom:0;
         height:70px;
+        margin-bottom:0;
         padding:0 10px;
     }
     .cart{
-        margin:0;
+        transform:scale(0.9);
+        margin-right:3vw;
+    }
+    .logo{
+        font-size:30px;
+        margin-left:-5vw;
+    }
+    .avatar{
+        width:25px;
+        margin-right:-10px;
     }
     .mobile-menu-side-background{
         background-color: var(--lightbox-background);
@@ -100,7 +112,7 @@ margin-right:auto;
         left: -100%;
         width: 100%;
     }
-    .mobile-menu-side-background-active{
+    .mobile-menu-side-background .mobile-menu-side-background-active{
         left:0%;
         transition: 0.4s ease-in all;
     }
@@ -118,16 +130,16 @@ margin-right:auto;
     .mobile-menu-list{
         display: grid;
         grid-template-columns:auto ;
-        justify-content: flex-start;
+        margin-left:-25px;
     }
     .mobile-menu-item{
         color:var(--black);
     }
     .menu-hamberger-icon{
         display:inline;
-        transform: scale(1.6,2);
-        cursor:pointer;   
-        padding-top:4px; 
+        transform: scale(1.3,1.8);
+        cursor:pointer;
+        padding-top:3.5px; 
     }
     .menu-cross-icon{
         display: block;
