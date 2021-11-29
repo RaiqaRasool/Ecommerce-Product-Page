@@ -6,3 +6,8 @@ function mobile_menu_appear(){
     mobile_menu_side_background[0].classList.add("mobile-menu-side-background-active");
 }
 hamberger_icon[0].addEventListener("click",mobile_menu_appear);
+function mobile_menu_disappear()
+{
+    mobile_menu_side_background[0].classList.remove("mobile-menu-side-background-active");
+}
+cross_icon[0].addEventListener("click",mobile_menu_disappear);

@@ -111,13 +111,15 @@ margin-right:auto;
         bottom: 0;
         left: -100%;
         width: 100%;
+        transition: 0.5s ease-in-out all;
     }
-    .mobile-menu-side-background .mobile-menu-side-background-active{
+    .mobile-menu-side-background-active{
         left:0%;
-        transition: 0.4s ease-in all;
+        z-index: 100;
+        transition: 0.5s ease-in-out all;
     }
     .avatar,.cart,.logo,.menu-hamberger-icon{
-        z-index: -1;
+
     }
     .mobile-menu{
         position: absolute;
@@ -143,6 +145,7 @@ margin-right:auto;
     }
     .menu-cross-icon{
         display: block;
+        cursor: pointer;
         margin:20px 0  20px 0;
         color:var(--headings-color);
         font-size: 22px;
