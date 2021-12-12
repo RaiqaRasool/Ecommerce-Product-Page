@@ -135,9 +135,9 @@ margin-right:auto;
     }
     .mobile-menu-side-background{
         background-color: var(--lightbox-background);
-        position: absolute;
+        position:fixed;
         top:0;
-        bottom: 0;
+        bottom:0;
         left: -100%;
         width: 100%;
         transition: 0.5s ease-in-out all;
