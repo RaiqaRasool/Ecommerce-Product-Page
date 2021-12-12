@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,7 +13,7 @@
 <body>
   <header class="header">
     <i class="uil uil-bars menu-hamberger-icon"></i>
-    <h1 class="logo">sneakers</h1>
+    <h1><a href="#" class="logo">sneakers</a></h1>
     <div class="mobile-menu-side-background">
     <nav class="main-menu mobile-menu">
         <ul class="menu-list mobile-menu-list">
@@ -25,29 +26,95 @@
         </ul>
     </nav>
     </div>
-   <i class="uil uil-shopping-cart-alt cart"></i>
+    <div class="cart">
+    <div class="cart-count-icon">1</div>
+   <i class="uil uil-shopping-cart-alt"></i>
+    </div>
    <img src="./images/image-avatar.png" alt="avatar" class="avatar">
   </header>
+    <div class="cart-pop cart-pop-hide">
+      <div class="cart-pop-heading">Cart</div>
+      <div class="cart-pop-filled-text cart-pop-filled-text-hide">
+        <div class="cart-pop-data">
+        <img src="./images/image-product-1-thumbnail.jpg" alt="product image" class="cart-pop-image">
+        <div class="cart-pop-product-data">
+          <div class="cart-pop-product-name"></div>
+          <span class="cart-pop-product-price"></span>
+          <span class="cart-pop-product-count"></span>
+          <span class="cart-pop-product-total"></span>
+        </div>
+        <i class="uil uil-trash-alt cart-pop-bin"></i>
+      </div>
+        <div class="cart-pop-checkout-button">Checkout</div>
+      </div>
+      <div class="cart-pop-empty-text">Your cart is empty.</div>
+    </div>
+    <!-- ==============mobile and tablet slider================= -->
+    <div class="mobile-main-image-part">
+      <div class="mobile-main-image check"><img src="./images/image-product-1.jpg" alt="Product Image"></div>
+      <div class="mobile-main-image"><img src="./images/image-product-2.jpg" alt="Product Image"></div>
+      <div class="mobile-main-image"><img src="./images/image-product-3.jpg" alt="Product Image"></div>
+      <div class="mobile-main-image"><img src="./images/image-product-4.jpg" alt="Product Image"></div>
+      <i class="uil uil-angle-left-b mobile-slider-left"></i>
+      <i class="uil uil-angle-right-b mobile-slider-right"></i>
+    </div>
 
-  Collections
-  Men
-  Women
-  About
-  Contact
-
-  Sneaker Company
-
-  Fall Limited Edition Sneakers
-
-  These low-profile sneakers are your perfect casual wear companion. Featuring a 
-  durable rubber outer sole, they’ll withstand everything the weather can offer.
-
-  $125.00
-  50%
-  $250.00
-
-  0
-  Add to cart
+  <section class="main-section">
+    <div class="product-image-part">
+        <div class="main-image-part">
+          <div class="main-image check"><img src="./images/image-product-1.jpg" alt="Product Image"></div>
+          <div class="main-image"><img src="./images/image-product-2.jpg" alt="Product Image"></div>
+          <div class="main-image"><img src="./images/image-product-3.jpg" alt="Product Image"></div>
+          <div class="main-image"><img src="./images/image-product-4.jpg" alt="Product Image"></div>
+        </div>
+        <div class="thumbnail-part">
+          <div class="thumbnail-image thumbnail-image-outer-hover"><img class="thumbnail-image-inner thumbnail-image-hover" src="./images/image-product-1-thumbnail.jpg" alt="Thumbnail Product image"></div>
+          <div class="thumbnail-image"><img class="thumbnail-image-inner" src="./images/image-product-2-thumbnail.jpg" alt="Thumbnail Product image"></div>
+          <div class="thumbnail-image"><img class="thumbnail-image-inner" src="./images/image-product-3-thumbnail.jpg" alt="Thumbnail Product image"></div>
+          <div class="thumbnail-image"><img class="thumbnail-image-inner" src="./images/image-product-4-thumbnail.jpg" alt="Thumbnail Product image"></div>
+        </div>
+    </div>
+    <div class="product-text-part">
+      <div class="product-tag">SNEAKER COMPANY</div>
+      <h1 class="product-main-heading">Fall Limited Edition Sneakers</h1>
+      <p class="product-description">  These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+      <div class="price-tag">
+        <span class="current-price">$125.00</span>
+        <span class="sale-tag">50%</span>
+      </div>
+      <div class="without-sale-price">$250.00</div> 
+      <div class="counter-and-cart-button">
+      <div class="product-counter">
+        <span class="product-minus"><i class="uil uil-minus product-minus-icon"></i></span>
+        <span class="product-count">0</span>
+        <span class="product-plus"><i class="uil uil-plus product-plus-icon"></i></span>
+      </div>
+      <div class="add-to-cart-button">
+        <i class="uil uil-shopping-cart-alt add-to-cart-button-icon"></i><span class="add-to-cart-button-text">Add to cart</span>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- =============light-box=================== -->
+  <div class="light-box-background">
+    <div class="light-box-product-image-part">
+      <div class="main-image-part light-box-main-image-part">
+        <i class="uil uil-times light-box-cross-icon"></i>
+        <div class="light-box-main-image check"><img src="./images/image-product-1.jpg" alt="Product Image"></div>
+        <div class="light-box-main-image"><img src="./images/image-product-2.jpg" alt="Product Image"></div>
+        <div class="light-box-main-image"><img src="./images/image-product-3.jpg" alt="Product Image"></div>
+        <div class="light-box-main-image"><img src="./images/image-product-4.jpg" alt="Product Image"></div>
+      </div>
+      <div class="light-box-thumbnail-part">
+        <div class="light-box-thumbnail-image light-box-thumbnail-image-outer-hover check"><img class="light-box-thumbnail-image-inner light-box-thumbnail-image-hover" src="./images/image-product-1-thumbnail.jpg" alt="Thumbnail Product image"></div>
+        <div class="light-box-thumbnail-image"><img class="light-box-thumbnail-image-inner" src="./images/image-product-2-thumbnail.jpg" alt="Thumbnail Product image"></div>
+        <div class="light-box-thumbnail-image"><img class="light-box-thumbnail-image-inner" src="./images/image-product-3-thumbnail.jpg" alt="Thumbnail Product image"></div>
+        <div class="light-box-thumbnail-image"><img class="light-box-thumbnail-image-inner" src="./images/image-product-4-thumbnail.jpg" alt="Thumbnail Product image"></div>
+      </div>
+  </div>
+  <i class="uil uil-angle-left-b light-box-slider-left"></i>
+  <i class="uil uil-angle-right-b light-box-slider-right"></i>
+</div>
   <script src="app.js"></script>
 </body>
 </html>
