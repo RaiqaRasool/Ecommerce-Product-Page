@@ -188,7 +188,7 @@ margin-right:auto;
     background-color: var(--white);
     border:1px solid var(--white);
     box-shadow: -1px 7px 8px 0.5px var(--body-text-color);
-    height: 200px;
+    height: 180px;
     width:300px;
     z-index:50;
 }
